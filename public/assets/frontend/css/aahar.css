@@ -1,0 +1,60 @@
+.aahar-banner {
+    /* background: #fff; */
+    padding: 20px 0;
+}
+
+.aahar-slider.slick-slider {
+    margin-bottom: 0 !important;
+}
+
+.aahar-slider .banner-area {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0;
+    gap: 30px;
+}
+
+.aahar-slider .banner-area p {
+    width: 90%;
+}
+
+.banner-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.banner-text h3 span {
+    font-weight: bold;
+    color: #d92662;
+}
+
+.aahar-slider .slick-dots {
+    bottom: 0 !important;
+}
+
+.location-page .form-control {
+    background: no-repeat;
+    border: none;
+    color: #000;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.493);
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none !important;
+}
+
+
+/* responsive */
+@media (max-width: 576px) {
+    .aahar-slider .banner-area {
+        flex-direction: column;
+    }
+
+    .aahar-slider.slick-slider {
+        padding-bottom: 30px;
+    }
+
+    .aahar-slider .slick-dots {
+        bottom: 0 !important;
+    }
+}
