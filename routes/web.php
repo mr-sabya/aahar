@@ -16,5 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [App\Http\Controllers\Frontend\HomeController::class, 'index'])->name('home');
+Route::get('feed', [App\Http\Controllers\Frontend\FeedController::class, 'index'])->name('feed.index');
 
 Route::get('login', [App\Http\Controllers\Frontend\Auth\LoginController::class, 'showLoginPage'])->name('login');

@@ -7,7 +7,7 @@
         <div class="px-4 text-center mt-4">
             <h5 class="text-dark">Hi, nice to meet you!</h5>
             <p class="mb-5">Choose your location to start find restaurants around you.</p>
-            <a href="home.html" class="btn btn-lg btn-primary w-100 my-4"><i class="feather-navigation"></i> Use
+            <a href="{{ route('feed.index') }}" wire:navigate class="btn btn-lg btn-primary w-100 my-4"><i class="feather-navigation"></i> Use
                 current location</a>
             <p>Or</p>
             <form action="">
